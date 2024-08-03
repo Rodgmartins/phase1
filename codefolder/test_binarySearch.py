@@ -22,7 +22,7 @@ def test_lista_vazia():
     nums = []
     item = 1
     resultado = pesquisaBinario(nums, 0, len(nums)-1, item)
-    assert == -1
+    assert resultado == -1
 
 def test_lista_com_um_elemento():
     nums = [1]
