@@ -7,3 +7,4 @@ def bubbleSort(lista):
                 shift = True
         if not shift:
             break
+    return lista
