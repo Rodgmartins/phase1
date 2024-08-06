@@ -1,10 +1,13 @@
 def countingSort(lista):
+    if not lista:
+        return lista
+
     max_value = max(lista)
 
     count = [0] * (max_value + 1)
 
     for num in lista:
-        count[num] = + 1
+        count[num] += 1
 
     for i in range(1, len(count)):
         count[i] += count[i - 1]
