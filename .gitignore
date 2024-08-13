@@ -1,0 +1,39 @@
+# Ambiente Virtual
+venv/
+.venv/
+
+# Arquivos de configuração local
+.env
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE
+.idea/
+.vscode/
+
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Arquivos temporários e de backup
+*~
+*.swp
+.*.swp
+.*.swo
+*.bak
+*.tmp
+
+# Executáveis e binários
+*.exe
+*.out
+*.app
+
+# Dependências de ferramentas de Python
+poetry.lock
